@@ -30,9 +30,9 @@ public class Main {
         login.enter();
         Menu menu = new Menu(driver);
 
-        menu.viewSystemUsers();
-        Users users=new Users(driver);
-        users.addUser();
+//        menu.viewSystemUsers();
+//        Users users=new Users(driver);
+//        users.addUser();
 
         menu.viewJobTitle();
         JobTitles jobTitles = new JobTitles(driver);
